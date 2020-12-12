@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+        <head>
+          <title>NEW HORIZONS</title>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="css/style.css">
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lobster&family=Nerko+One&display=swap">
+               <style>
+                 body{
+                  background-color: #4E4B48;
+                  color:#fff;
+                  }
+                  header{
+                  text-align: center;
+                  }
+                  header .thumb{
+                  width:70px;
+                  height:70px;
+                  border-radius: 50%;
+                  margin:0px;
+                  box-shadow:0 6 12 0 rgba(0,0,0,0.1), 0 12 24 0 rgba(0,0,0,0.24);
+                  }
+                  header .thumb-wrapper{
+                  position:relative;
+                  display:inline-block;
+                  margin-top:35px;
+                  }
+                  header .badge{
+                   width:25px;
+                   height: 25px;
+                   font-size:10px;
+                   position:absolute;
+                   background-color:orangered;
+                   border-radius: 50%;
+                   top:0;
+                   right:0;
+                   display:flex;
+                   justify-content: center;
+                   align-items: center;
+                  }
+
+                  .text_area {
+                   font-family:'Abril Fatface', cursive;
+                   font-size: 15px;
+                   color:#fff;
+                   margin-top: 20px;
+                   }
+
+                   h1{
+                   margin-top:5px;
+                   margin-bottom: 5px;
+                   }
+                  header .mail{
+                  padding:8px 15px 10px 15px;
+                  background-color:rgba(0, 0, 0, 0.08);
+                  display:inline-block;
+                  border-radius: 20px;
+                  border:1px solid rgba(0, 0, 0, 0.09);
+                  font-size: 12px;
+                  }
+
+
+                  .INDEX_list{
+                  padding-left: 0;
+                  margin-top:40px;
+                  margin-bottom: 70px;
+                  }
+                  .INDEX_list .item{
+                  display:flex;
+                  justify-content:space-between;
+                  align-items:center;
+                  border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+                  position:relative;
+                  }
+                  .INDEX_list .item .left{
+                  display:flex;
+                  align-items:center;
+                  }
+                  .INDEX_list .item .left .name{
+                  margin-left: 13px;
+                  }
+                  .INDEX_list .item .right{
+                   opacity:0.5;
+                  }
+                  .INDEX_list .item i{
+                  padding:20px 22px;
+                  }
+                  a{ text-decoration:none;
+                      color:#fff;
+                   }
+               </style>
+
+
+        </head>
+
+        <body>
+           <header>
+
+<!-- 상태바  -->
+              <div class="status-bar">
+                  <div class="status-bar__column">
+                      <span>No service</span>
+                      <i class="fas fa-wifi" aria-hidden="true"></i>
+                  </div>
+                  <div calss="status-bar__column">
+                      <span>07:14</span>
+                  </div>
+                  <div class="status-bar__column">
+                      <span id="batterynum">2015%</span>
+                      <i id="battery" class='fas fa-battery-three-quarters' aria-hidden="true"></i>
+                      <i id="cahrge" class="fas fa-bolt" aria-hidden="true"></i>
+                  </div>
+              </div>
+              <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin="anonymous"></script>
+
+
+<!-- 프로필사진-->
+                     <div class="thumb-wrapper">
+                       <img class="thumb" src="PIC/galaxy.jpg">
+                       <div class="badge">7</div>
+                     </div>
+
+
+<!-- 텍스트 영역 -->
+
+                     <div class="text_area">
+                        <h1>NEW HORIZONS</h1>
+                        <div class="desc">
+                          how to move your life to another space.
+                        </div>
+                      </div>
+
+
+<!-- 이메일영역-->
+
+                      <div class="mail"><a href="mailto:newhorizons@gmail.com">newhorizons@gmail.com</a></div>
+
+
+<!-- 검색영역 -->
+                      <p class="search-box_click_text">Click : Search For The New Land</p>
+                      <div class="search-box">
+                         <input type="text" placeholder="Type to search.." style="color:#4E4B48">
+                           <div class="search-btn">
+                             <i class="fas fa-search"></i>
+                           </div>
+                           <div class="cancel-btn">
+                             <i class="fas fa-times"></i>
+                           </div>
+                           <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin="anonymous"></script>
+                      </div>
+           </header>
+
+
+<!--컨텐츠영역 -->
+                 <ul class="INDEX_list">
+                    <nav><a href="CONTENT_Accessory.html">
+                    <li class="item mouse-effect">
+                       <div class="left">
+                          <i class="fas fa-gem"></i>
+                          <div class="name">Accessory</div>
+                       </div>
+                       <div class="right">
+                          <i class="fas fa-chevron-right"></i>
+                       </div>
+                    </li></a>
+                    </nav>
+
+                    <nav><a href="CONTENT_Ecobag.html">
+                    <li class="item mouse-effect">
+                       <div class="left">
+                          <i class="fas fa-shopping-bag"></i>
+                          <div class="name">Customized eco bag</div>
+                       </div>
+                       <div class="right">
+                          <i class="fas fa-chevron-right"></i>
+                       </div>
+                    </li></a>
+                    </nav>
+
+                    <nav><a href="CONTENT_FoodnDrink.html">
+                    <li class="item mouse-effect">
+                       <div class="left">
+                          <i class="fas fa-cocktail"></i>
+                          <div class="name">Food & Drink</div>
+                       </div>
+                       <div class="right">
+                          <i class="fas fa-chevron-right"></i>
+                       </div>
+                    </li></a>
+                    </nav>
+                 </ul>
+
+                <footer>
+                  <p class="SORRY">This is only a test.</p>
+                </footer>
+        </body>
+ </html>

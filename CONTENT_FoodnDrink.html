@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+      <head>
+          <title>CONTENT</title>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="css/style.css">
+           <style>
+
+           .FoodnDrink_list{
+             display: grid;
+             grid-template-columns: 1fr;
+             grid-template-rows:repeat(1fr 300px);
+             grid-gap:20px;
+             grid-auto-columns: 100%;
+             grid-auto-rows: auto;
+             padding:24px;
+           }
+
+           .FoodnDrink_list > div{
+             background-color: none;
+             border-radius: 5px;
+             background-size: cover;
+             width:100%;
+             height:300px;
+           }
+
+            .FoodnDrink_list > div:nth-child(1){
+              background-image: url("PIC/Food&Drink_1.jpeg");
+            }
+            .FoodnDrink_list > div:nth-child(2){
+              background-image: url("PIC/Food&Drink_2.jpeg");
+            }
+            .FoodnDrink_list > div:nth-child(3){
+              background-image: url("PIC/Food&Drink_3.jpeg");
+            }
+            .FoodnDrink_list > div:nth-child(4){
+              background-image: url("PIC/Food&Drink_4.jpeg");
+            }
+            .FoodnDrink_list > div:nth-child(5){
+              background-image: url("PIC/Food&Drink_5.jpeg");
+            }
+            .FoodnDrink_list > div:nth-child(6){
+              background-image: url("PIC/Food&Drink_6.jpeg");
+            }
+            .FoodnDrink_list > div:nth-child(7){
+              background-image: url("PIC/Food&Drink_7.jpeg");
+            }
+            .FoodnDrink_list > div:nth-child(8){
+              background-image: url("PIC/Food&Drink_8.jpeg");
+            }
+            .FoodnDrink_list > div:nth-child(9){
+              background-image: url("PIC/Food&Drink_9.jpeg");
+              height:450px;
+            }
+
+           </style>
+        </head>
+
+        <body>
+
+
+              <header>
+
+<!-- 상태바  -->
+                    <div class="status-bar">
+                          <div class="status-bar__column">
+                              <span>No service</span>
+                              <i class="fas fa-wifi" aria-hidden="true"></i>
+                          </div>
+                          <div calss="status-bar__column">
+                              <span>07:14</span>
+                          </div>
+                          <div class="status-bar__column">
+                              <span id="batterynum">2015%</span>
+                              <i id="battery" class='fas fa-battery-three-quarters' aria-hidden="true"></i>
+                              <i id="cahrge" class="fas fa-bolt" aria-hidden="true"></i>
+                          </div>
+                    </div>
+                  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin="anonymous"></script>
+
+
+<!-- 검색영역 -->
+                    <div class="pic_search-bar">
+                      <input type="text" placeholder="Search">
+                        <i class="fas fa-search"></i>
+                        <!-- <button><i class="fas fa-undo"></i></button> -->
+                      <a href="INDEX.html"><i class="fas fa-undo"></i></a>
+                    </div>
+
+              </header>
+
+
+<!-- 텍스트 영역 -->
+                    <div class="text_area">
+                        <h><strong>Food & Drink</strong></h>
+                        <div class="desc">
+                           Food photography is more than just taking a pretty picture of something edible. Good food photography tells a story and brings recipes to life. </br>
+                           Pictures of food can make the viewer relive a memory, remember how something smells, or anticipate the flavor of food.
+                           It is not the only planet to have rings—made of chunks of ice and rock—but none are as spectacular or as complicated as Saturn's.
+                        </div>
+                    </div>
+
+
+<!-- 사진영역 -->
+      <!-- <main>
+           <div class="FoodnDrink-list">
+                <li><img src="PIC/Food&Drink_1.jpeg" alt=""></li>
+                <li><img src="PIC/Food&Drink_2.jpeg" alt=""></li>
+                <li><img src="PIC/Food&Drink_3.jpeg" alt=""></li>
+                <li><img src="PIC/Food&Drink_4.jpeg" alt=""></li>
+                <li><img src="PIC/Food&Drink_5.jpeg" alt=""></li>
+                <li><img src="PIC/Food&Drink_6.jpeg" alt=""></li>
+                <li><img src="PIC/Food&Drink_7.jpeg" alt=""></li>
+                <li><img src="PIC/Food&Drink_8.jpeg" alt=""></li>
+                <li><img src="PIC/Food&Drink_9.jpeg" alt=""></li>
+            </div>
+      </main> -->
+
+<!-- 사진영역 -->
+              <main>
+                    <div class="FoodnDrink_list">
+                      <div class="FoodnDrink_item"></div>
+                      <div class="FoodnDrink_item"></div>
+                      <div class="FoodnDrink_item"></div>
+                      <div class="FoodnDrink_item"></div>
+                      <div class="FoodnDrink_item"></div>
+                      <div class="FoodnDrink_item"></div>
+                      <div class="FoodnDrink_item"></div>
+                      <div class="FoodnDrink_item"></div>
+                      <div class="FoodnDrink_item"></div>
+                   </div>
+             </main>
+
+
+            <footer>
+                   <p class="SORRY">This is only a test.</p>
+            </footer>
+        </body>
+</html>

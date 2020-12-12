@@ -1,0 +1,42 @@
+/* .list{
+padding-left: 0;
+margin-top:45px;
+}
+.list .item{
+ display:flex;
+ justify-content:space-between;
+ align-items:center;
+ border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+ position:relative;
+}
+.list .item .left{
+ display:flex;
+ align-items:center;
+}
+.list .item .left .name{
+margin-left: 13px;
+}
+.list .item .right{
+ opacity:0.5;
+}
+.list .item i{
+padding:20px 22px;
+} */
+.mouse-effect{
+position:absolute;
+}
+.mouse-effect:after {
+content:"";
+position:absolute;
+width:100%;
+height:100%;
+left:0;
+top:0;
+}
+.mouse-effect:hover:after {
+background-color:rgba(0, 0, 0, 0.08);
+transition: 0.2s;
+}
+.mouse-effect:active:after {
+background-color:rgba(0, 0, 0, 0.12);
+}

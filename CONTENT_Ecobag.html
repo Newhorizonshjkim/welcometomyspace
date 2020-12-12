@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <title>CONTENT</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+
+         <style>
+
+              header{
+              position:relative;
+              }
+              .Ecobag_list{
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                grid-template-rows:repeat(3,200px);
+                grid-gap:20px;
+                grid-auto-columns: 100%;
+                grid-auto-rows: 100px;
+                padding:24px;
+              }
+
+              .Ecobag_list > div{
+                background-color: none;
+                border-radius: 5px;
+                background-size: cover;
+                background-repeat:no-repeat;
+                width:100%;
+                height:200px;
+              }
+
+               .Ecobag_list > div:nth-child(1){
+                 background-image: url("PIC/Ecobag_1.jpeg");
+               }
+               .Ecobag_list > div:nth-child(2){
+                 background-image: url("PIC/Ecobag_2.jpeg");
+               }
+               .Ecobag_list > div:nth-child(3){
+                 background-image: url("PIC/Ecobag_3.jpeg");
+               }
+               .Ecobag_list > div:nth-child(4){
+                 background-image: url("PIC/Ecobag_4.jpeg");
+               }
+               .Ecobag_list > div:nth-child(5){
+                 background-image: url("PIC/Ecobag_5.jpeg");
+               }
+               .Ecobag_list > div:nth-child(6){
+                 background-image: url("PIC/Ecobag_6.jpeg");
+               }
+
+         </style>
+  </head>
+
+
+
+  <body>
+      <header>
+<!--상태바 -->
+          <div class="status-bar">
+            <div class="status-bar__column">
+              <span>No service</span>
+              <i class="fas fa-wifi" aria-hidden="true"></i>
+            </div>
+            <div calss="status-bar__column">
+              <span>07:14</span>
+            </div>
+            <div class="status-bar__column">
+                <span id="batterynum">2015%</span>
+              <i id="battery" class='fas fa-battery-three-quarters' aria-hidden="true"></i>
+              <i id="cahrge" class="fas fa-bolt" aria-hidden="true"></i>
+            </div>
+          </div>
+          <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin="anonymous"></script>
+
+<!-- 검색영역 -->
+                <div class="pic_search-bar">
+                  <input type="text" placeholder="Search">
+                    <i class="fas fa-search"></i>
+                    <a href="INDEX.html"><i class="fas fa-undo"></i></a>
+              </div>
+
+      </header>
+
+
+<!-- 텍스트 영역 -->
+          <div class="text_area">
+            <h><strong>Ecobag</strong></h>
+            <div class="desc">
+               Printed cotton bags and branded tote bags are extremely popular as an alternative to single-use carrier bags.
+               We understand that for many companies, protecting the environment and minimising waste is a major business priority.
+            </div>
+          </div>
+
+
+<!-- 사진영역 -->
+          <main>
+                <div class="Ecobag_list">
+                  <div class="Ecobag_item"></div>
+                  <div class="Ecobag_item"></div>
+                  <div class="Ecobag_item"></div>
+                  <div class="Ecobag_item"></div>
+                  <div class="Ecobag_item"></div>
+                  <div class="Ecobag_item"></div>
+                </div>
+          </main>
+
+
+
+      <footer>
+            <p class="SORRY">This is only a test.</p>
+      </footer>
+
+  </body>
+ </html>

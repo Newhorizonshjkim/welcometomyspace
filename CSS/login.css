@@ -1,0 +1,62 @@
+.welcome_title{
+ font-family:'Abril Fatface', cursive;
+ margin-block-start:2.3em;
+ margin-block-end: 1.5em;
+ margin-inline-start: 0px;
+ margin-inline-end: 0px;
+ justify-content: center;
+ text-align: center;
+ vertical-align: baseline;
+ color:rgba(255,255,255, 0.8);
+ }
+.welcom_pic img{
+ display: block;
+ margin: 0 auto;
+ margin-block-end: 1em;
+ }
+.welcom_text{
+ opacity: 1;
+ font-size: 15px;
+ display:flex;
+ justify-content: center;
+ text-align: center;
+ margin-block-start:0;
+ margin-block-end: 2em;
+ color:rgba(255,255,255, 0.8);
+ }
+
+
+
+.login-box{
+  margin-top:40px;
+  margin-bottom: 30px;
+  }
+.login_form{
+  display: flex;
+  flex-direction: column;
+  }
+.idpw{
+  background-color: #EEEEC8;
+  border: 1px solid #EEEEC8;
+  border-radius: 5px;
+  box-sizing:border-box;
+  display:flex;
+  margin-block-start:1em;
+  margin-block-end: 0em;
+  margin: 5px 30px;
+  padding: 8px 8px;
+  font-size: 15px;
+  color:#4E4B48;
+  text-align: center;
+  }
+.button{
+  border-radius: 5px;
+  background-color: #A49E86;
+  border:5px solid #A49E86;
+  margin: 5px 30px;
+  padding: 8px;
+  text-align: center;
+  font-size: 15px;
+  color:white;
+  font-weight: bold;
+  }

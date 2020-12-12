@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+        <head>
+              <meta charset="utf-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <link rel="stylesheet" href="css/style.css">
+              <script></script>
+              <style>
+
+              </style>
+        </head>
+
+
+        <body>
+
+              <header>
+
+<!-- 상태바  -->
+                      <div class="status-bar">
+                             <div class="status-bar__column">
+                              <span>No service</span>
+                              <i class="fas fa-wifi" aria-hidden="true"></i>
+                          </div>
+                          <div calss="status-bar__column">
+                              <span>07:14</span>
+                          </div>
+                          <div class="status-bar__column">
+                              <span id="batterynum">2015%</span>
+                              <i id="battery" class='fas fa-battery-three-quarters' aria-hidden="true"></i>
+                              <i id="cahrge" class="fas fa-bolt" aria-hidden="true"></i>
+                          </div>
+                      </div>
+                      <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin="anonymous"></script>
+
+
+<!-- 텍스트 영역 -->
+                      <h1 class="welcome_title">Welcome To My Space</h1>
+                      <div class="welcom_pic">
+
+                          <img src="PIC/saturn.png" width="70" heighr="70" >
+                      </div>
+
+                      <p class="welcom_text">If you have Account, log in with your email or phone number.</p>
+
+                </header>
+
+
+<!-- 로그인박스 -->
+                        <div class="login-box">
+                            <form class="login_form" action="INDEX.html" method="get">
+                                <input class="idpw" type="text" name="ID_msg" autofocus placeholder="ID" value="ID">
+                                <input class="idpw" type="password" name="PW_msg" required placeholder="PASSWORD"value="Password">
+                                <input class="button" type="submit" value="LOGIN">
+                                <input class="button" type="submit" value="SIGN UP">
+                                    <script src="JS/login_script.js"></script>
+                            </form>
+                         </div>
+                 <footer>
+                  <p class="LOGIN_SORRY">This is only a test.</p>
+                 </footer>
+        </body>
+  </html>
