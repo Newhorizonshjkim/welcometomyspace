@@ -1,13 +1,6 @@
-/* .position-relative {
-  position: relative;
-}
 
-.position-absolute {
-  position: absolute;
-} */
-
-@import "login.css";
-@import "main.css";
-@import "mouse-effect.css";
-@import "search-bar.css";
-@import "status-bar.css";
+@import "CSS/login.css";
+@import "CSS/main.css";
+@import "CSS/mouse-effect.css";
+@import "CSS/search-bar.css";
+@import "CSS/status-bar.css";
