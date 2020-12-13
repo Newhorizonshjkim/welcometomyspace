@@ -1,5 +1,5 @@
 
-@import "CSS/login.css";
+@import url("CSS/login.css");
 @import "CSS/main.css";
 @import "CSS/mouse-effect.css";
 @import "CSS/search-bar.css";
