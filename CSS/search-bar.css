@@ -5,7 +5,7 @@ margin-top:10px;
 margin-bottom:0;
 font-size: 12px;
 font-weight: bold;
-color:gray;
+color:#4E4B48;
 }
 .search-box{
 position:relative;
@@ -24,8 +24,8 @@ outline:none;
 width: 70%;
 margin:8px auto 0;
 padding: 13px;
-font-size: 13px;
-color:gray;
+font-size: 11px;
+color:#4E4B48;
 }
 .search-box input:focus{
 outline: none;
@@ -45,14 +45,11 @@ text-align: center;
 border-radius: 50px;
 font-size-adjust: auto;
 cursor:pointer;
-/* display:flex;
-justify-content: center;
-align-items: center; */
 }
 .search-box .cancel-btn{
 position:absolute;
 top:55%;
-right:30px;
+right:20px;
 transform:translateY(-40%);
 color:#fff;
 cursor:pointer;
