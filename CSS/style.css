@@ -1,6 +1,6 @@
 
 @import url("login.css");
-@import "CSS/main.css";
-@import "CSS/mouse-effect.css";
-@import "CSS/search-bar.css";
-@import "CSS/status-bar.css";
+@import url("main.css");
+@import url("mouse-effect.css");
+@import url("search-bar.css");
+@import url("status-bar.css");
